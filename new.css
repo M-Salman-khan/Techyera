@@ -1,0 +1,23 @@
+.card{
+  align-items: center;;
+  margin: auto;
+  margin-top: 15px;
+}
+.card-body{
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+  width: 94%;
+}
+
+.header-area{
+  text-align: center;
+}
+
+.header-area h2 span{
+    color: rgb(4, 194, 252);
+}
+
+.content1 p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+}
