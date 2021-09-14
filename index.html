@@ -374,6 +374,14 @@
     </a>
   
     <script src="/Techyera/Scrooll to top.js"></script>
+    <script type="text/javascript">
+    let progress = document.getElementById('progressbar');
+    let totalHeight = document.body.scrollHeight - window.innerHeight;
+    window.onscroll = function(){
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+    }
+    </script>
   </footer>
   </div>
   <!-- Optional JavaScript; choose one of the two! -->
